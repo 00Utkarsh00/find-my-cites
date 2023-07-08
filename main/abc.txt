@@ -1,0 +1,10 @@
+Implement the myAtoifunction, which converts a string to a 32-bit signed integer 
+
+The algorithm for myAtoi is as follows
+
+Read in and ignore any leading whitespace.
+Check if the next character  Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
+Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.
+Convert these digits into an integer If no digits were read, then the integer is 0. Change the sign as necessary .
+If the integer is out of the  signed integer range  then clamp the integer so that it remains in the range. Specifically, integers less than  should be clamped to , and integers greater than 231  should be clamped to.
+Return the integer as the final result. a qucik brown fox jump over a lazy dog
